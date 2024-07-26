@@ -6,7 +6,7 @@ name: build_docs
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -30,7 +30,7 @@ jobs:
       - name: make html & commit the changes
         run: |
           sphinx-build -b html ./source ./docs
-          git config user.name "pavlovicmilena"
+          git config user.name "mmamica"
           git add ./docs
           git commit -m 'update docs'
           
@@ -38,4 +38,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.DEPLOY_TOKEN }}
-          branch: master
+          branch: main
