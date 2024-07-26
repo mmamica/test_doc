@@ -31,6 +31,7 @@ jobs:
           pip install Sphinx==3.5.4
           pip install furo==2021.4.11b34
           pip install myst_parser==0.13.7
+          pip install 'jinja2<3.1' 
         
       - name: make html & commit the changes
         run: |
