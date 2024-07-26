@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SfB knowledge base'
-copyright = '2021, SfB_UiO'
-author = 'SfB_UiO'
+project = 'Craft Sessions SandveLab'
+copyright = '2024, SandveLab'
+author = 'SandveLab'
 
 
 # -- General configuration ---------------------------------------------------
