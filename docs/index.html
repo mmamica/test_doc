@@ -178,7 +178,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -247,114 +247,18 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="centre-for-bioinformatics-knowledge-base">
-<h1>Centre for Bioinformatics - Knowledge Base<a class="headerlink" href="#centre-for-bioinformatics-knowledge-base" title="Link to this heading">¶</a></h1>
+          <section id="craft-sessions">
+<h1>Craft Sessions<a class="headerlink" href="#craft-sessions" title="Link to this heading">¶</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This website is under development.</p>
 </div>
-<p>For a bioinformatician, a broad variety of topics may be of interest to design and conduct an analysis.
-This repository is a collection of resources for these tasks grouped by a common theme. The resources include both custom content
-and links to relevant online material and training.</p>
-<p>To describe the complexity level of each topic, there will be one of the following signs next to the title to indicate:
-🌱 (beginner level, no previous knowledge needed), 🌿 (apprentice level, some previous experience on the topic might be useful to
-follow the content) and 🌳 (journeyman level, assuming experience on the given topic and the content might be quite detailed).</p>
-<section id="quick-start-for-new-members">
-<h2>Quick start for new members 🌱<a class="headerlink" href="#quick-start-for-new-members" title="Link to this heading">¶</a></h2>
-<p>Follow one of these tutorials to set up a demo project. The steps for these projects will ensure that you have access to BMI resources
-and some basic understanding of setting up a project. Even if you have a lot of experience, it might still be useful to go through the
-tutorials even if only to set up necessary accounts.</p>
-<ul class="simple">
-<li><p><a class="reference internal" href="quickstarts/get_started_python.html#get-started-with-a-simple-python-project"><span class="std std-ref">Get started with a simple Python project</span></a> 🌱</p></li>
-<li><p><a class="reference internal" href="quickstarts/get_started_R.html#get-started-with-a-simple-r-project"><span class="std std-ref">Get started with a simple R project</span></a> 🌱</p></li>
-</ul>
-</section>
-<section id="computational-competencies">
-<h2>Computational competencies<a class="headerlink" href="#computational-competencies" title="Link to this heading">¶</a></h2>
-<section id="do-you-have-biological-background-and-want-to-get-started-in-bioinformatics">
-<h3>Do you have biological background and want to get started in bioinformatics? 🌱<a class="headerlink" href="#do-you-have-biological-background-and-want-to-get-started-in-bioinformatics" title="Link to this heading">¶</a></h3>
-<p>Visit <span class="xref std std-ref">this link</span> to read:</p>
-<ul class="simple">
-<li><p>how to run analysis from the command line</p></li>
-<li><p>run tools from a Docker image</p></li>
-<li><p>using custom tools developed at the centre</p></li>
-<li><p>computational thinking? / algorithms?</p></li>
-<li><p>intro to programming</p></li>
-<li><p><span class="xref std std-ref">Clean code</span></p></li>
-<li><p>version control</p></li>
-</ul>
-</section>
-<section id="do-you-need-more-information-on-specific-tools-developed-at-the-centre">
-<h3>Do you need more information on specific tools developed at the Centre? 🌱<a class="headerlink" href="#do-you-need-more-information-on-specific-tools-developed-at-the-centre" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p><span class="xref std std-ref">GSuite Hyperbrowser</span></p></li>
-<li><p>Proto</p></li>
-<li><p><span class="xref std std-ref">immuneML</span> and <a class="reference external" href="https://galaxy.immuneml.uio.no">immuneML Galaxy</a></p></li>
-<li><p>other tools?</p></li>
-</ul>
-</section>
-<section id="do-you-need-to-run-large-analyses-and-use-servers-or-hpc-clusters">
-<h3>Do you need to run large analyses and use servers or HPC clusters?<a class="headerlink" href="#do-you-need-to-run-large-analyses-and-use-servers-or-hpc-clusters" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p>HPC intro</p></li>
-<li><p>Fram</p></li>
-<li><p>Saga</p></li>
-<li><p>TSD</p></li>
-<li><p>contact information for immunohub</p></li>
-</ul>
-</section>
-<section id="do-you-want-to-read-up-on-some-more-specialized-advanced-topics-in-programming">
-<h3>Do you want to read up on some more specialized/advanced topics in programming? 🌿<a class="headerlink" href="#do-you-want-to-read-up-on-some-more-specialized-advanced-topics-in-programming" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p><span class="xref std std-ref">Clean code</span></p></li>
-<li><p>best coding practices 🌿</p></li>
-<li><p>organizing code 🌿</p></li>
-<li><p>testing 🌿</p></li>
-</ul>
-</section>
-<section id="do-you-need-to-set-up-computational-workflows">
-<h3>Do you need to set up computational workflows? 🌿<a class="headerlink" href="#do-you-need-to-set-up-computational-workflows" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p><span class="xref std std-ref">Containers</span> and <span class="xref std std-ref">Docker</span> 🌿</p></li>
-<li><p><span class="xref std std-ref">Services to share developed tools</span></p></li>
-<li><p>snakemake, nextflow and similar tools 🌿</p></li>
-</ul>
-</section>
-<section id="do-you-want-to-learn-more-about-statistics-and-machine-learning">
-<h3>Do you want to learn more about statistics and machine learning? 🌱<a class="headerlink" href="#do-you-want-to-learn-more-about-statistics-and-machine-learning" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p>introduction to machine learning for bioinformatics 🌱</p></li>
-<li><p>training and evaluation of machine learning methods 🌿</p></li>
-<li><p>mathematics for machine learning 🌿</p></li>
-<li><p>introduction to statistics 🌱</p></li>
-<li><p>specialized topics in machine learning and statistics 🌿</p></li>
-</ul>
-</section>
-</section>
-<section id="biological-competencies">
-<h2>Biological competencies<a class="headerlink" href="#biological-competencies" title="Link to this heading">¶</a></h2>
-<section id="do-you-have-a-computational-background-computer-science-engineering-statistics-and-need-to-learn-biology">
-<h3>Do you have a computational background (computer science, engineering, statistics) and need to learn biology? 🌱<a class="headerlink" href="#do-you-have-a-computational-background-computer-science-engineering-statistics-and-need-to-learn-biology" title="Link to this heading">¶</a></h3>
-<p>See the following pages for resources for:</p>
-<ul class="simple">
-<li><p><span class="xref std std-ref">Getting started with genomics</span> 🌱</p></li>
-<li><p><span class="xref std std-ref">Getting started with immunology and adaptive immune receptors</span> 🌱</p></li>
-</ul>
-</section>
-</section>
-<section id="academic-writing-other-skills">
-<h2>Academic writing &amp; other skills<a class="headerlink" href="#academic-writing-other-skills" title="Link to this heading">¶</a></h2>
-<section id="are-you-a-master-student-getting-started-with-the-writing">
-<h3>Are you a master student getting started with the writing?<a class="headerlink" href="#are-you-a-master-student-getting-started-with-the-writing" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p><span class="xref std std-ref">Writing an essay for master students</span> 🌱</p></li>
-</ul>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -383,8 +287,6 @@ tutorials even if only to set up necessary accounts.</p>
 </li>
 </ul>
 </div>
-</section>
-</section>
 </section>
 <section id="indices-and-tables">
 <h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">¶</a></h1>
@@ -428,47 +330,8 @@ tutorials even if only to set up necessary accounts.</p>
         
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            On this page
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">Centre for Bioinformatics - Knowledge Base</a><ul>
-<li><a class="reference internal" href="#quick-start-for-new-members">Quick start for new members 🌱</a></li>
-<li><a class="reference internal" href="#computational-competencies">Computational competencies</a><ul>
-<li><a class="reference internal" href="#do-you-have-biological-background-and-want-to-get-started-in-bioinformatics">Do you have biological background and want to get started in bioinformatics? 🌱</a></li>
-<li><a class="reference internal" href="#do-you-need-more-information-on-specific-tools-developed-at-the-centre">Do you need more information on specific tools developed at the Centre? 🌱</a></li>
-<li><a class="reference internal" href="#do-you-need-to-run-large-analyses-and-use-servers-or-hpc-clusters">Do you need to run large analyses and use servers or HPC clusters?</a></li>
-<li><a class="reference internal" href="#do-you-want-to-read-up-on-some-more-specialized-advanced-topics-in-programming">Do you want to read up on some more specialized/advanced topics in programming? 🌿</a></li>
-<li><a class="reference internal" href="#do-you-need-to-set-up-computational-workflows">Do you need to set up computational workflows? 🌿</a></li>
-<li><a class="reference internal" href="#do-you-want-to-learn-more-about-statistics-and-machine-learning">Do you want to learn more about statistics and machine learning? 🌱</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#biological-competencies">Biological competencies</a><ul>
-<li><a class="reference internal" href="#do-you-have-a-computational-background-computer-science-engineering-statistics-and-need-to-learn-biology">Do you have a computational background (computer science, engineering, statistics) and need to learn biology? 🌱</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#academic-writing-other-skills">Academic writing &amp; other skills</a><ul>
-<li><a class="reference internal" href="#are-you-a-master-student-getting-started-with-the-writing">Are you a master student getting started with the writing?</a><ul>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>
